@@ -1,2 +1,3 @@
 # Sitecore.Support.155426
-Sitecore xDB Cloud client doesn't support custom connection timeout for MongoDB.
+
+See [master branch](https://github.com/sitecoresupport/Sitecore.Support.155426) for details.
