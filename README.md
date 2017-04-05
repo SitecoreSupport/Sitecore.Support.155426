@@ -4,7 +4,7 @@ Sitecore xDB Cloud 1.0 doesn't support custom connection timeout for the `analyt
 The default connection string between Sitecore application and MongoDB isntance looks like:
 
 ```
-mongodb://{user-name}:{password}@{host1}:{port1},{host2}:{port2}/{guid}-Analytics?ssl=true;replicaSet={hostX}"
+mongodb://{user-name}:{password}@{host1}:{port1},{host2}:{port2}/{guid}-Analytics?ssl=true;replicaSet={hostX}
 ```
 
 The patch updates connection strings for the above databases with the `connectTimeoutMS`and `socketTimeoutMS` parameters, which could be configured using the `Sitecore.Support.155426.config` file.
