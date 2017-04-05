@@ -10,7 +10,7 @@ mongodb://{user-name}:{password}@{host1}:{port1},{host2}:{port2}/{guid}-Analytic
 The patch updates connection strings for the above databases with the `connectTimeoutMS`and `socketTimeoutMS` parameters, which could be configured using the `Sitecore.Support.155426.config` file.
     
 ```
-mongodb://{user-name}:{password}@{host1}:{port1},{host2}:{port2}/{guid}-Analytics?socketTimeoutMS=1000;connectTimeoutMS=1000;ssl=true;replicaSet={hostX}"
+mongodb://{user-name}:{password}@{host1}:{port1},{host2}:{port2}/{guid}-Analytics?socketTimeoutMS=1000;connectTimeoutMS=1000;ssl=true;replicaSet={hostX}
 ```
 
 ## License  
